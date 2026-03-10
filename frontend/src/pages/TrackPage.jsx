@@ -16,7 +16,7 @@ const TrackPage = () => {
   const [taskName, setTaskName] = useState("");
   const [days, setDays] = useState("");
 
-  const API = "http://localhost:5000/track";
+  const API = "https://habitpulse-cgk3.onrender.com/track";
 
   const token = localStorage.getItem("token");
 

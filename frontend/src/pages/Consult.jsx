@@ -21,7 +21,7 @@ const Consult = () => {
     setLoading(true);
     setDietPlan("");
     try {
-      const response = await axios.post("http://localhost:5000/consult", data);
+      const response = await axios.post("https://habitpulse-cgk3.onrender.com/consult", data);
       setDietPlan(response.data.dietPlan);
     } catch (err) {
       console.error(err);

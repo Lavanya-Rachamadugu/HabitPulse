@@ -16,7 +16,7 @@ const SelfPage = () => {
   const [taskName, setTaskName] = useState("");
   const [days, setDays] = useState("");
 
-  const API = "http://localhost:5000/self";
+  const API = "https://habitpulse-cgk3.onrender.com/self";
 
   const token = localStorage.getItem("token");
 

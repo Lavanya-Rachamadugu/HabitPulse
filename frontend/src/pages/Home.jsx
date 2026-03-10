@@ -51,9 +51,9 @@ const Home = () => {
   const fetchAll = async () => {
     try {
       const [health, self, track] = await Promise.all([
-        axios.get("http://localhost:5000/health", config),
-        axios.get("http://localhost:5000/self", config),
-        axios.get("http://localhost:5000/track", config),
+        axios.get("https://habitpulse-cgk3.onrender.com/health", config),
+        axios.get("https://habitpulse-cgk3.onrender.com/self", config),
+        axios.get("https://habitpulse-cgk3.onrender.com/track", config),
       ]);
 
       const data = [

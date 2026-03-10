@@ -16,7 +16,7 @@ const HealthPage = () => {
   const [taskName, setTaskName] = useState("");
   const [days, setDays] = useState("");
 
-  const API = "http://localhost:5000/health";
+  const API = "https://habitpulse-cgk3.onrender.com/health";
 
   const token = localStorage.getItem("token");
 
