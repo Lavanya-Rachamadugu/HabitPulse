@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/health";
+const API = "https://habitpulse-cgk3.onrender.com/health";
 
 export const getTasks = (userId) => axios.get(`${API}/${userId}`);
 export const addTask = (data) => axios.post(API, data);
