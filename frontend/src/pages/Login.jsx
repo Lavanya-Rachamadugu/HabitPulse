@@ -55,13 +55,14 @@ function Login() {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
-
+          <Link to="/Home">
           <button
             type="submit"
             className="w-full bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 transition duration-300"
           >
             Login
           </button>
+          </Link>
         </form>
 
         <p className="text-sm text-center text-gray-600 mt-4">
